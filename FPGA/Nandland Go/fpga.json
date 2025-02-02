@@ -1,0 +1,441 @@
+{
+    "properties": {
+	"yosysToolchainYosysSynthTool": "synth_ice40",
+	"yosysToolchainYosysFlags": "",
+	"yosysToolchainNextPnrTool": "nextpnr-ice40",
+	"yosysToolchainNextPnrFlags": "--package vq100 --hx1k --pcf ~/project.pcf",
+	"yosysToolchainPackTool": "icepack",
+	"yosysToolchainPackFlags": "",
+	"openFpgaLoaderBoard": "ice40_generic",
+	"openFpgaLoaderShortTermFlags": "",
+	"openFpgaLoaderLongTermFlags": ""
+    },
+    "pins": [
+	{
+	    "description": "i_Clk",
+	    "name": "15"
+	},
+	{
+	    "description": "o_LED_1",
+	    "name": "56"
+	},
+	{
+	    "description": "o_LED_2",
+	    "name": "57"
+	},
+	{
+	    "description": "o_LED_3",
+	    "name": "59"
+	},
+	{
+	    "description": "o_LED_4",
+	    "name": "60"
+	},
+	{
+	    "description": "i_Switch_1",
+	    "name": "53"
+	},
+	{
+	    "description": "i_Switch_2",
+	    "name": "51"
+	},
+	{
+	    "description": "i_Switch_3",
+	    "name": "54"
+	},
+	{
+	    "description": "i_Switch_4",
+	    "name": "52"
+	},
+	{
+	    "description": "o_Segment1_A",
+	    "name": "3"
+	},
+	{
+	    "description": "o_Segment1_B",
+	    "name": "4"
+	},
+	{
+	    "description": "o_Segment1_C",
+	    "name": "93"
+	},
+	{
+	    "description": "o_Segment1_D",
+	    "name": "91"
+	},
+	{
+	    "description": "o_Segment1_E",
+	    "name": "90"
+	},
+	{
+	    "description": "o_Segment1_F",
+	    "name": "1"
+	},
+	{
+	    "description": "o_Segment1_G",
+	    "name": "2"
+	},
+	{
+	    "description": "o_Segment2_A",
+	    "name": "100"
+	},
+	{
+	    "description": "o_Segment2_B",
+	    "name": "99"
+	},
+	{
+	    "description": "o_Segment2_C",
+	    "name": "97"
+	},
+	{
+	    "description": "o_Segment2_D",
+	    "name": "95"
+	},
+	{
+	    "description": "o_Segment2_E",
+	    "name": "94"
+	},
+	{
+	    "description": "o_Segment2_F",
+	    "name": "8"
+	},
+	{
+	    "description": "o_Segment2_G",
+	    "name": "96"
+	},      
+	{
+	    "description": "UART_RX",
+	    "name": "73"
+	},
+	{
+	    "description": "UART_TX",
+	    "name": "74"
+	},
+	{
+	    "description": "io_PMOD_1",
+	    "name": "65"
+	},
+	{
+	    "description": "io_PMOD_2",
+	    "name": "64"
+	},
+	{
+	    "description": "io_PMOD_3",
+	    "name": "63"
+	},
+	{
+	    "description": "io_PMOD_4",
+	    "name": "62"
+	},
+	{
+	    "description": "io_PMOD_7",
+	    "name": "78"
+	},
+	{
+	    "description": "io_PMOD_8",
+	    "name": "79"
+	},
+	{
+	    "description": "io_PMOD_9",
+	    "name": "80"
+	},
+	{
+	    "description": "io_PMOD_10",
+	    "name": "81"
+	},
+	{
+	    "description": "o_VGA_HSync",
+	    "name": "26"
+	},
+	{
+	    "description": "o_VGA_VSync",
+	    "name": "27"
+	},
+	{
+	    "description": "o_VGA_Red_0",
+	    "name": "36"
+	},
+	{
+	    "description": "o_VGA_Red_1",
+	    "name": "37"
+	},
+	{
+	    "description": "o_VGA_Red_2",
+	    "name": "40"
+	},
+
+	{
+	    "description": "o_VGA_Grn_0",
+	    "name": "29"
+	},
+	{
+	    "description": "o_VGA_Grn_1",
+	    "name": "30"
+	},
+	{
+	    "description": "o_VGA_Grn_2",
+	    "name": "33"
+	},
+	{
+	    "description": "o_VGA_Blu_0",
+	    "name": "28"
+	},
+	{
+	    "description": "o_VGA_Blu_1",
+	    "name": "41"
+	},
+	{
+	    "description": "o_VGA_Blu_2",
+	    "name": "42"
+	}
+    ],
+    "interfaces": [
+	{
+	    "name": "i_Clk",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "15"
+		}
+	    ]
+	},
+	{
+	    "name": "o_LED_1",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "56"
+		}
+	    ]
+	},
+        {
+	    "name": "o_LED_2",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "57"
+		}
+	    ]
+	},
+        {
+	    "name": "o_LED_3",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "59"
+		}
+	    ]
+	},
+        {
+	    "name": "o_LED_4",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "60"
+		}
+	    ]
+	},
+        {
+	    "name": "o_Switch_1",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "53"
+		}
+	    ]
+	},
+        {
+	    "name": "o_Switch_2",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "51"
+		}
+	    ]
+	},
+        {
+	    "name": "o_Switch_3",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "54"
+		}
+	    ]
+	},
+        {
+	    "name": "o_Switch_4",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "52"
+		}
+	    ]
+	},
+	{
+	    "name": "o_Segment1",
+	    "pins": [
+		{
+		    "name": "_A",
+		    "pin": "3"
+		},
+		{
+		    "name": "_B",
+		    "pin": "4"
+		},
+		{
+		    "name": "_C",
+		    "pin": "93"
+		},
+		{
+		    "name": "_D",
+		    "pin": "91"
+		},
+		{
+		    "name": "_F",
+		    "pin": "90"
+		},
+		{
+		    "name": "_G",
+		    "pin": "1"
+		},
+		{
+		    "name": "_H",
+		    "pin": "2"
+		}
+	    ]
+	},
+	{
+	    "name": "o_Segment2",
+	    "pins": [
+		{
+		    "name": "_A",
+		    "pin": "100"
+		},
+		{
+		    "name": "_B",
+		    "pin": "99"
+		},
+		{
+		    "name": "_C",
+		    "pin": "97"
+		},
+		{
+		    "name": "_D",
+		    "pin": "95"
+		},
+		{
+		    "name": "_E",
+		    "pin": "94"
+		},
+		{
+		    "name": "_F",
+		    "pin": "8"
+		},
+		{
+		    "name": "_G",
+		    "pin": "96"
+		}
+	    ]
+	},
+	{
+	    "name": "i_UART",
+	    "pins": [
+		{
+		    "name": "_RX",
+		    "pin": "73"
+		},
+		{
+		    "name": "_TX",
+		    "pin": "74"
+		}
+	    ]
+
+	},
+	{
+	    "name": "io_PMOD",
+	    "pins": [
+		{
+		    "name": "1",
+		    "pin": "65"
+		},
+		{
+		    "name": "2",
+		    "pin": "64"
+		},
+		{
+		    "name": "3",
+		    "pin": "63"
+		},
+		{
+		    "name": "4",
+		    "pin": "62"
+		},
+		{
+		    "name": "5",
+		    "pin": "78"
+		},
+		{
+		    "name": "6",
+		    "pin": "79"
+		},
+		{
+		    "name": "7",
+		    "pin": "80"
+		},
+		{
+		    "name": "8",
+		    "pin": "81"
+		}
+	    ]
+	},
+	{
+	    "name": "o_VGA",
+	    "pins": [
+		{
+		    "name": "_HSync",
+		    "pin": "26"
+		},
+		{
+		    "name": "_VSync",
+		    "pin": "27"
+		},
+		{
+		    "name": "_Red_0",
+		    "pin": "36"
+		},
+		{
+		    "name": "_Red_1",
+		    "pin": "37"
+		},
+		{
+		    "name": "_Red_2",
+		    "pin": "40"
+		},
+		{
+		    "name": "_Grn_0",
+		    "pin": "29"
+		},
+		{
+		    "name": "_Grn_1",
+		    "pin": "30"
+		},
+		{
+		    "name": "_Grn_2",
+		    "pin": "33"
+		},
+		{
+		    "name": "_Blu_0",
+		    "pin": "28"
+		},
+		{
+		    "name": "_Blu_1",
+		    "pin": "41"
+		},
+		{
+		    "name": "_Blu_2",
+		    "pin": "42"
+		}
+	    ]
+	}
+    ]
+}

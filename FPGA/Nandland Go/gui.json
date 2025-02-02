@@ -1,0 +1,374 @@
+{
+    "width": 400,
+    "height": 290,
+    "elements": [
+	{
+	    "type": "rect",
+	    "x": 40,
+	    "y": 40,
+	    "width": 320,
+	    "height": 210,
+	    "color": "#351A39"
+	},
+	{
+	    "type": "text",
+	    "x": 80,
+	    "y": 50,
+	    "text": "NANDLAND.COM GO BOARD"
+	},
+	{
+	    "type": "rect",
+	    "x": 240,
+	    "y": 180,
+	    "width": 14,
+	    "height": 14,
+	    "color": "#C6C6C6"
+	},
+	{
+	    "type": "pin",
+	    "x": 242,
+	    "y": 182,
+	    "width": 10,
+	    "height": 10,
+	    "color": "#000000",
+	    "bind": "53",
+	    "label": "SW1",
+	    "flipLabel": true
+	},
+	{
+	    "type": "rect",
+	    "x": 240,
+	    "y": 220,
+	    "width": 14,
+	    "height": 14,
+	    "color": "#C6C6C6"
+	},
+	{
+	    "type": "pin",
+	    "x": 242,
+	    "y": 222,
+	    "width": 10,
+	    "height": 10,
+	    "color": "#000000",
+	    "bind": "51",
+	    "label": "SW2",
+	    "flipLabel": true
+	},
+	{
+	    "type": "rect",
+	    "x": 300,
+	    "y": 180,
+	    "width": 14,
+	    "height": 14,
+	    "color": "#C6C6C6"
+	},
+	{
+	    "type": "pin",
+	    "x": 302,
+	    "y": 182,
+	    "width": 10,
+	    "height": 10,
+	    "color": "#000000",
+	    "bind": "54",
+	    "label": "SW3",
+	    "flipLabel": true
+	},
+	{
+	    "type": "rect",
+	    "x": 300,
+	    "y": 220,
+	    "width": 14,
+	    "height": 14,
+	    "color": "#C6C6C6"
+	},
+	{
+	    "type": "pin",
+	    "x": 302,
+	    "y": 222,
+	    "width": 10,
+	    "height": 10,
+	    "color": "#000000",
+	    "bind": "52",
+	    "label": "SW4",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pinBlock",
+	    "x": 220,
+	    "y": 150,
+	    "pinWidth": 30,
+	    "width": 120,
+	    "horizontal": true,
+	    "textColor": "white",
+	    "pins": [
+		{
+		    "bind": "56",
+		    "label": "LED1",
+		    "color": "green"
+		},
+		{
+		    "bind": "57",
+		    "label": "LED2",
+		    "color": "green"
+		},
+		{
+		    "bind": "59",
+		    "label": "LED3",
+		    "color": "green"
+		},
+		{
+		    "bind": "60",
+		    "label": "LED4",
+		    "color": "green"
+		}
+	    ]
+	},
+	{
+	    "type": "USB",
+	    "x": 20,
+	    "y": 200,
+	    "rotation": 270,
+	    "rxBind": "73",
+	    "txBind": "74",
+	    "flipLabel": true
+	},
+	{
+	    "type": "PMOD",
+	    "x": 320,
+	    "y": 160,
+	    "bind": "io_PMOD",
+	    "rotation": 270
+	},
+	{
+	    "type": "rect",
+	    "x": 246,
+	    "y": 48,
+	    "width": 100,
+	    "height": 80,
+	    "color": "#000000"
+	},
+	{
+	    "type": "pin",
+	    "x": 268,
+	    "y": 60,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "3",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 282,
+	    "y": 60,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "4",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 282,
+	    "y": 88,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "93",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 268,
+	    "y": 106,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "91",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 258,
+	    "y": 88,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "90",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 258,
+	    "y": 60,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "1",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 268,
+	    "y": 84,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "2",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 310,
+	    "y": 60,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "100",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 324,
+	    "y": 60,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "99",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 324,
+	    "y": 88,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "97",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 310,
+	    "y": 106,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "95",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 300,
+	    "y": 88,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "94",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 300,
+	    "y": 60,
+	    "width": 10,
+	    "height": 28,
+	    "color": "#c6c6c6",
+	    "bind": "8",
+	    "flipLabel": true
+	},
+	{
+	    "type": "pin",
+	    "x": 310,
+	    "y": 84,
+	    "width": 14,
+	    "height": 10,
+	    "color": "#c6c6c6",
+	    "bind": "96",
+	    "flipLabel": true
+	},
+	{
+	    "type": "rect",
+	    "x": 40,
+	    "y": 66,
+	    "width": 180,
+	    "height": 60,
+	    "color": "#000000"
+	},
+	{
+	    "type": "pinBlock",
+	    "x": 40,
+	    "y": 76,
+	    "pinWidth": 36,
+	    "width": 180,
+	    
+	    "horizontal": false,
+	    "textColor": "white",
+	    "pins": [
+		{
+		    "bind": "26",
+		    "label": "HSYNC",
+		    "color": "gray"
+		},
+		{
+		    "bind": "27",
+		    "label": "VSYNC",
+		    "color": "gray"
+		},
+		{
+		    "bind": "36",
+		    "label": "RED0",
+		    "color": "red"
+		},
+		{
+		    "bind": "37",
+		    "label": "RED1",
+		    "color": "red"
+		},
+		{
+		    "bind": "40",
+		    "label": "RED2",
+		    "color": "red"
+		},
+		{
+		    "bind": "29",
+		    "label": "GRN0",
+		    "color": "green"
+		},
+		{
+		    "bind": "30",
+		    "label": "GRN1",
+		    "color": "green"
+		},
+		{
+		    "bind": "33",
+		    "label": "GRN2",
+		    "color": "green"
+		},
+		{
+		    "bind": "28",
+		    "label": "BLU0",
+		    "color": "blue"
+		},
+		{
+		    "bind": "41",
+		    "label": "BLU1",
+		    "color": "blue"
+		},
+		{
+		    "bind": "42",
+		    "label": "BLU2",
+		    "color": "blue"
+		}
+	    ]
+	},
+	{
+	    "type": "text",
+	    "x": 120,
+	    "y": 100,
+	    "text": "VGA",
+	    "fontWeight": "bold",
+	    "fontSize": 18
+	}
+    ]
+}
