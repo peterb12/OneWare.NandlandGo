@@ -1,0 +1,37 @@
+{
+    "category": "FPGA Boards",
+    "type": "Hardware",
+    "name": "Nandland Go Support",
+    "id": "OneWare.Nandland.Go",
+    "description": "Nandland Go Integration",
+    "iconUrl": "https://raw.githubusercontent.com/peterb12/OneWare.NandlandGo/refs/heads/main/demo.png",
+    "license": "MIT",
+    "tabs": [
+      {
+        "title": "Readme",
+        "contentUrl": "https://raw.githubusercontent.com/peterb12/OneWare.NandlandGo/refs/heads/main/README.md"
+      },
+      {
+        "title": "License",
+        "contentUrl": "https://raw.githubusercontent.com/peterb12/OneWare.NandlandGo/refs/heads/main/LICENSE"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/peterb12/OneWare.NandlandGo"
+      }
+    ],
+    "versions": [
+      {
+        "version": "1.0",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/peterb12/OneWare.NandlandGo/releases/download/1.0/OneWare.NandlandGo_1.0_all.zip"
+          }
+        ]
+      }
+    ]
+  }
+  
