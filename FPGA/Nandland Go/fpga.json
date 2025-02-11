@@ -3,7 +3,7 @@
 	"yosysToolchainYosysSynthTool": "synth_ice40",
 	"yosysToolchainYosysFlags": "",
 	"yosysToolchainNextPnrTool": "nextpnr-ice40",
-	"yosysToolchainNextPnrFlags": "--package vq100 --hx1k --pcf ~/project.pcf",
+	"yosysToolchainNextPnrFlags": "--package vq100 --hx1k",
 	"yosysToolchainPackTool": "icepack",
 	"yosysToolchainPackFlags": "",
 	"openFpgaLoaderBoard": "ice40_generic",
